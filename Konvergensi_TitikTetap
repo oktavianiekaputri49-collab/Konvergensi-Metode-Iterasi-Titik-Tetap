@@ -1,0 +1,44 @@
+📊 Analisis Konvergensi Metode Iterasi Titik Tetap
+Deskripsi
+Project ini membahas implementasi Metode Iterasi Titik Tetap (Fixed Point Iteration) untuk menyelesaikan persamaan nonlinear:
+f(X) X^3-X-2
+
+Dalam project ini dilakukan transformasi fungsi menjadi bentuk \(g(x)\) untuk menganalisis proses konvergensi iterasi numerik menggunakan Microsoft Excel.
+Fungsi Iterasi:
+Kemungkinan 1
+g1(X) (X+2)^(1/3)
+
+Kemungkinan 2
+g2(X) (-X)^3+2
+
+Parameter
+- Error relatif: 5%
+- Maksimum iterasi: 25
+- Nilai awal:
+x0=2
+
+Hasil Perhitungan
+| Iterasi | Xi | Error Relatif |
+|---|---|---|
+| 0 | 2.00000 | - |
+| 1 | 1.58740 | 25.992% |
+| 2 | 1.53083 | 3.696% |
+Hasil iterasi menunjukkan bahwa metode berhasil mencapai konvergensi karena error relatif telah lebih kecil dari batas toleransi 5%.
+
+Tujuan Project
+- Memahami metode Iterasi Titik Tetap
+- Menganalisis konvergensi iterasi numerik
+- Menyelesaikan persamaan nonlinear secara numerik
+- Mengimplementasikan metode numerik menggunakan Excel
+
+Insight
+Pemilihan bentuk fungsi \(g(x)\) sangat memengaruhi keberhasilan iterasi. Pada project ini, salah satu bentuk fungsi menghasilkan proses iterasi yang konvergen menuju akar persamaan.
+
+Tools
+- Microsoft Excel
+- Metode Numerik
+
+Penutup
+Project ini merupakan latihan implementasi metode numerik untuk memahami perilaku konvergensi dalam penyelesaian persamaan nonlinear menggunakan Metode Iterasi Titik Tetap.
+
+#MetodeNumerik #FixedPointIteration #Excel #NumericalMethod
